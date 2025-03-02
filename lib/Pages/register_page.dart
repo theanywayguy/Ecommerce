@@ -24,13 +24,13 @@ class RegisterPage extends StatelessWidget {
             builder: (context) => AlertDialog(
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(
-                        16), // Rounded corners for the dialog
+                        16), 
                   ),
                   title: Row(
                     children: [
                       Icon(
                         Icons.error_outline,
-                        // You can change this to any icon you like
+                       
                         color: Colors.red,
                         size: 30,
                       ),
@@ -55,7 +55,7 @@ class RegisterPage extends StatelessWidget {
                   actions: [
                     TextButton(
                       onPressed: () {
-                        Navigator.of(context).pop(); // Close the dialog
+                        Navigator.of(context).pop(); 
                       },
                       child: Text(
                         'OK',
@@ -75,13 +75,13 @@ class RegisterPage extends StatelessWidget {
           builder: (context) => AlertDialog(
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(
-                      16), // Rounded corners for the dialog
+                      16), 
                 ),
                 title: Row(
                   children: [
                     Icon(
                       Icons.error_outline,
-                      // You can change this to any icon you like
+                      
                       color: Colors.red,
                       size: 30,
                     ),
@@ -106,7 +106,7 @@ class RegisterPage extends StatelessWidget {
                 actions: [
                   TextButton(
                     onPressed: () {
-                      Navigator.of(context).pop(); // Close the dialog
+                      Navigator.of(context).pop();
                     },
                     child: Text(
                       'OK',
