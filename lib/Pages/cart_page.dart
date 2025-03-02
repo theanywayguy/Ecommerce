@@ -51,7 +51,7 @@ class CartPage extends StatelessWidget {
           TextButton(
             onPressed: () {
               Navigator.pop(context);
-              // Add payment logic or navigate to the payment screen
+       
             },
             child: const Text(
               "Yes",
